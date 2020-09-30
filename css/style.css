@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+input {
+    height: 42px;
+    padding: 0 14px;
+    caret-color: #3b8ef3;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    outline: none;
+    transition: border-color 0.1s ease-in-out;
+    background-color: #fff;
+    font-size: 20px;
+    text-overflow: ellipsis;
+}
+
+button {
+    min-width: 215px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #3b8ef3;
+    font-size: 18px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+}
